@@ -56,7 +56,7 @@ export const content = {
       eyebrow: "About",
       headline: "Design is about clarity.",
       bio1: "I am an Information Technology graduate from Al-Ahgaff University and the Co-founder & CEO of SimpleX. I specialize in bridging the gap between raw data and operational efficiency.",
-      bio2: "I am fluent in Arabic and English, and currently learning Polish. My focus is on producing full solution architecture that enables long-term operational maintainability.",
+      bio2: "I am fluent in Arabic and English. My focus is on producing full solution architecture that enables long-term operational maintainability.",
       experienceHeading: "Experience",
       experienceItems: [
         { company: "SimpleX", role: "Co-Founder & CEO", date: "2023 — Present", desc: "Architecting production-grade automation pipelines and AI-powered agents to reduce client processing time." },
@@ -142,7 +142,7 @@ export const content = {
       eyebrow: "نبذة",
       headline: "التصميم يتعلق بالوضوح.",
       bio1: "أنا خريج تقنية المعلومات من جامعة الأحقاف، وشريك مؤسس ومدير تنفيذي لشركة SimpleX. أتخصص في سد الفجوة بين البيانات الخام والكفاءة التشغيلية.",
-      bio2: "أجيد اللغتين العربية والإنجليزية بطلاقة، وأتعلم اللغة البولندية حالياً. ينصب تركيزي على إنتاج بنية حلول كاملة تتيح قابلية الصيانة التشغيلية على المدى الطويل.",
+      bio2: "أجيد اللغتين العربية والإنجليزية بطلاقة. ينصب تركيزي على إنتاج بنية حلول كاملة تتيح قابلية الصيانة التشغيلية على المدى الطويل.",
       experienceHeading: "الخبرات",
       experienceItems: [
         { company: "SimpleX", role: "شريك مؤسس ومدير تنفيذي", date: "2023 – الحاضر.", desc: "هندسة مسارات الأتمتة المتقدمة ووكلاء الذكاء الاصطناعي المستقلين لتقليل وقت معالجة العملاء." },
