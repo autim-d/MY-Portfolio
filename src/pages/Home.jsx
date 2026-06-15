@@ -5,6 +5,7 @@ import { content } from '../content/data';
 import project1 from '../assets/Digital Seaport Management System.png';
 import project2 from '../assets/Massar Cover page.png';
 import project3 from '../assets/n8n.png';
+import cvFile from '../assets/CV/Ahmed_Bawazir_CV.pdf';
 import { StaggerContainer, FadeInUp, InteractiveCard, TypingText } from '../components/MotionWrappers';
 
 export default function Home() {
@@ -28,7 +29,7 @@ export default function Home() {
           <Link to="/contact" className="inline-flex items-center justify-center h-12 px-8 rounded-full border border-white text-white font-medium hover:bg-white hover:text-black transition-colors">
             {t.hero.contactBtn}
           </Link>
-          <a href="#" className="inline-flex items-center justify-center h-12 px-8 rounded-full border border-white text-white font-medium hover:bg-white hover:text-black transition-colors">
+          <a href={cvFile} download="Ahmed_Bawazir_CV.pdf" className="inline-flex items-center justify-center h-12 px-8 rounded-full border border-white text-white font-medium hover:bg-white hover:text-black transition-colors">
             {t.hero.cvBtn}
           </a>
         </FadeInUp>
