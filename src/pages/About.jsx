@@ -35,7 +35,7 @@ export default function About() {
             src={heroImg} 
             alt="Ahmed Bawazir" 
             loading="lazy"
-            className="w-full aspect-[4/5] md:aspect-[21/9] object-cover object-top bg-neutral-900 rounded-2xl shadow-2xl" 
+            className="w-full aspect-[4/5] md:aspect-[21/9] object-cover object-[center_20%] bg-neutral-900 rounded-2xl shadow-2xl" 
             animate={{ y: [0, -10, 0] }}
             transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
           />

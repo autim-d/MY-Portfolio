@@ -107,13 +107,9 @@ export const TypingText = ({ text, className = '' }) => {
       style={{ display: 'flex', flexWrap: 'wrap' }}
     >
       {text.split(' ').map((word, i) => (
-        <span key={i} style={{ display: 'inline-flex', marginRight: '0.25em' }}>
-          {Array.from(word).map((char, index) => (
-            <motion.span key={index} variants={child}>
-              {char}
-            </motion.span>
-          ))}
-        </span>
+        <motion.span key={i} variants={child} style={{ display: 'inline-block', marginRight: '0.25em' }}>
+          {word}
+        </motion.span>
       ))}
     </motion.div>
   );
